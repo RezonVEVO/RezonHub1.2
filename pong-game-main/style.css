@@ -1,0 +1,93 @@
+body{
+    background: rgb(233, 233, 233);
+    background-image: url("../back.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    background: black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 544px;
+    width: 1088px;
+    border:solid 5px red;
+}
+
+#user-score, #comp-score{
+    color: red;
+    position: absolute;
+    top: 12px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-score{
+    left: 262px;
+}
+
+#comp-score{
+    left: 806px;
+}
+
+#net{
+    background: red;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 544px;
+    width: 5px;
+}
+
+#user-paddle, #comp-paddle{
+    position: absolute;
+    background: red;
+    height: 72px;
+    width: 10px;
+}
+
+#ball{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.sus{
+    width: 30%;
+    margin-left: 5%;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+h5{
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+}
+
+br{
+    color: whitesmoke;
+}
+
+li{
+    color: whitesmoke;
+}

@@ -1,0 +1,25 @@
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+
+?>
+<!--html-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylelogin.css">
+	<title>name</title>
+	<style>
+		a{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+</html>

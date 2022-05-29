@@ -1,0 +1,8 @@
+.row{
+    display: flex;
+}
+
+.turtle{
+    flex: 33%;
+    padding: 5px;
+}

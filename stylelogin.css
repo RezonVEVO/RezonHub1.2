@@ -1,0 +1,71 @@
+/*css for sida*/
+#text{
+
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin rgb(37, 4, 68);
+    width: 100%;
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: rgb(40, 0, 78);
+    background-color: rgb(129, 0, 0);
+    border: none;
+}
+
+#box{
+
+    background-color: rgb(56, 0, 0);
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+}
+/*css for noen elementer*/
+.info{
+    margin-bottom: 50px;
+    width: 30%;
+    margin-left: 5%;
+}
+/*style for alle sidene*/
+.sus{
+    width: 30%;
+    margin-left: 5%;
+}
+body{
+    background-image: url("back.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*all skrift skal være hvit*/
+h1{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+h5{
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+}
+
+br{
+    color: whitesmoke;
+}
+
+li{
+    color: whitesmoke;
+}

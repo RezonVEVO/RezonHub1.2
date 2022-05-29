@@ -1,0 +1,32 @@
+//2p test
+let up_Pressed = false
+let down_Pressed = false
+
+//2p test
+
+document.addEventListener('keydown',(e)=>{
+    if(e.keyCode=='38'){
+        up_Pressed = true
+    }
+    else if(e.keyCode=='40'){
+        down_Pressed = true
+    }
+})
+
+document.addEventListener('keyup',(e)=>{
+    if(e.keyCode=='38'){
+        up_Pressed = false
+    }
+    else if(e.keyCode=='40'){
+        down_Pressed = false
+    }
+})
+
+//2p test
+            if(up_Pressed && marginTop(compPaddle)>0){
+                compPaddle.style.marginTop = `${marginTop(compPaddle)-2}px`
+            }
+            else if(down_Pressed && marginTop(compPaddle)<472){
+                compPaddle.style.marginTop = `${marginTop(compPaddle)+2}px`
+            }
+   
